@@ -1,4 +1,3 @@
-NOM: ALIAWY MFAM SAKER RICHLAND 
 # TP4 - Calculs réseau
 
 ## Objectif
@@ -139,3 +138,12 @@ lent, sujet aux erreurs et non reproductible. L'automatisation garantit la
 **cohérence**, la **rapidité** et la **fiabilité** des plans d'adressage, et
 libère les techniciens pour des tâches à plus forte valeur ajoutée.
 
+---
+
+## Commandes Git
+
+```bash
+git add TP4_IPPlanManager_CalculsReseau
+git commit -m "Ajout du TP4 calculs réseau automatiques"
+git push origin main
+```
