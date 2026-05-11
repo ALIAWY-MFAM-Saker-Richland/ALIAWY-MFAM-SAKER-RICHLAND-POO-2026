@@ -9,7 +9,7 @@
 - SERVEURS : 15 hotes
 
 2. Plan d'adressage propose
-- KEMENE_TAKO : 10.10.0.0/25 | Capacite : 126 hotes
+- ALIAWY MFAM  : 10.10.0.0/25 | Capacite : 126 hotes
 - WIFI_INVITES : 10.10.0.128/25 | Capacite : 126 hotes
 - ADMINISTRATION : 10.10.1.0/26 | Capacite : 62 hotes
 - VOIP : 10.10.1.64/26 | Capacite : 62 hotes
