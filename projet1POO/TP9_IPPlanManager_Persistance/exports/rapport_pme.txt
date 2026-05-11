@@ -1,0 +1,29 @@
+===== RAPPORT TECHNIQUE IPPLAN-MANAGER =====
+
+1. Besoins exprimes par l'utilisateur
+- ALIAWY MFAM  : 100 hotes
+- WIFI_INVITES : 80 hotes
+- ADMINISTRATION : 50 hotes
+- VOIP : 40 hotes
+- COMPTABILITE : 20 hotes
+- SERVEURS : 15 hotes
+
+2. Plan d'adressage propose
+- KEMENE_TAKO : 10.10.0.0/25 | Capacite : 126 hotes
+- WIFI_INVITES : 10.10.0.128/25 | Capacite : 126 hotes
+- ADMINISTRATION : 10.10.1.0/26 | Capacite : 62 hotes
+- VOIP : 10.10.1.64/26 | Capacite : 62 hotes
+- COMPTABILITE : 10.10.1.128/27 | Capacite : 30 hotes
+- SERVEURS : 10.10.1.160/27 | Capacite : 30 hotes
+
+3. VLANs proposes
+- VLAN 10 | ALIAWY MFAM | 10.10.0.0/25
+- VLAN 20 | WIFI_INVITES | 10.10.0.128/25
+- VLAN 30 | ADMINISTRATION | 10.10.1.0/26
+- VLAN 40 | VOIP | 10.10.1.64/26
+- VLAN 50 | COMPTABILITE | 10.10.1.128/27
+- VLAN 60 | SERVEURS | 10.10.1.160/27
+
+4. Recommandations techniques
+- [MOYENNE] Isolation WIFI : Configurer une isolation stricte du réseau invité.
+- [HAUTE] Protection Serveurs : Mettre en place des ACL et un pare-feu.

@@ -1,0 +1,4 @@
+===== RECOMMANDATIONS IPPLAN-MANAGER =====
+
+[MOYENNE] Isolation WIFI : Configurer une isolation stricte du réseau invité.
+[HAUTE] Protection Serveurs : Mettre en place des ACL et un pare-feu.
